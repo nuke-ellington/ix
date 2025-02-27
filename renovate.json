@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "matchPaths": ["packages/*"],
+      "groupName": "all",
+      "separateMinorPatch": true,
+      "major": {
+        "automerge": false
+      },
+      "minor": {
+        "automerge": false
+      },
+      "patch": {
+        "automerge": false
+      }
+    }
+  ],
+  "prConcurrentLimit": 5,
+  "prHourlyLimit": 2
+}
