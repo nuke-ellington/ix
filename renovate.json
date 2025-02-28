@@ -8,6 +8,13 @@
         {
             "extends": [
                 "group:monorepos"
+            ],
+            "groupName": "monorepos",
+            "matchUpdateTypes": [
+                "digest",
+                "patch",
+                "minor",
+                "major"
             ]
         }
     ]
