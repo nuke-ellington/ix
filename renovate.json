@@ -1,21 +1,8 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "monorepo:turbo"
+        "monorepo:turbo",
+        "group:monorepos"
     ],
     "prHourlyLimit": 5,
-    "packageRules": [
-        {
-            "extends": [
-                "group:monorepos"
-            ],
-            "groupName": "monorepos",
-            "matchUpdateTypes": [
-                "digest",
-                "patch",
-                "minor",
-                "major"
-            ]
-        }
-    ]
 }
