@@ -1,10 +1,14 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["monorepo:turbo"],
-  "prHourlyLimit": 5,
-  "packageRules": [
-    {
-      "extends": ["group:monorepos"]
-    }
-  ]
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "monorepo:turbo"
+    ],
+    "prHourlyLimit": 5,
+    "packageRules": [
+        {
+            "extends": [
+                "group:monorepos"
+            ]
+        }
+    ]
 }
