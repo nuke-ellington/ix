@@ -636,7 +636,7 @@ importers:
         version: 6.1.1
       '@capacitor/device':
         specifier: ^6.0.0
-        version: 6.0.1(@capacitor/core@6.1.1)
+        version: 6.0.2(@capacitor/core@6.1.1)
       '@capacitor/haptics':
         specifier: 6.0.0
         version: 6.0.0(@capacitor/core@6.1.1)
@@ -3126,8 +3126,8 @@ packages:
   '@capacitor/core@6.1.1':
     resolution: {integrity: sha512-b1s4WDMy3Y1/owTG2/XNGCI6G5SDpF2NT1JMAgcShue13fiAuHA+Ans7Wfei6McvR0KdopAE6tMHmDAfL5PM8Q==}
 
-  '@capacitor/device@6.0.1':
-    resolution: {integrity: sha512-Tlz67DAO5GKb5YAfupXiENZxDww6mHnG9iKI+8D5SVF82VLpEv5r9qwKtiounuQB2y2HWiHV8tlOk7DqnLVUqQ==}
+  '@capacitor/device@6.0.2':
+    resolution: {integrity: sha512-WDUxUkkuqEtbmE1YmyDzzGVJD8r5oRFgs/1zy+Xa7Da3MlBrgKaiQKZoRVdr6FTnAVyHnVP4LabN3w2sCuA3+A==}
     peerDependencies:
       '@capacitor/core': ^6.0.0
 
@@ -19248,7 +19248,7 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
-  '@capacitor/device@6.0.1(@capacitor/core@6.1.1)':
+  '@capacitor/device@6.0.2(@capacitor/core@6.1.1)':
     dependencies:
       '@capacitor/core': 6.1.1
 
