@@ -83,7 +83,7 @@ jobs:
         run: pnpm build --cache-dir=.turbo --filter documentation
 
   visual-testing-core:
-    if: ${{ needs.changes.outputs.core_any_changed == 'true' || github.event.pull_request.user.login == 'app/renovate' }}
+    if: ${{ needs.changes.outputs.core_any_changed == 'true' || github.event.pull_request.user.login == 'renovate' }}
     needs: [build, changes]
     timeout-minutes: 10
     runs-on: ubuntu-latest
