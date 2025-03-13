@@ -648,7 +648,7 @@ importers:
         version: 6.0.1(@capacitor/core@6.1.1)
       '@capacitor/screen-orientation':
         specifier: ^6.0.1
-        version: 6.0.2(@capacitor/core@6.1.1)
+        version: 6.0.3(@capacitor/core@6.1.1)
       '@capacitor/status-bar':
         specifier: 6.0.0
         version: 6.0.0(@capacitor/core@6.1.1)
@@ -3058,8 +3058,8 @@ packages:
     resolution: {integrity: sha512-mM8eg4yl5D6i3lu2QKPuPH4FArvJ8KhTofbE7jwMUv9KX5mBvwPAqnV3MlyBNqdp9RyRKP6Yck8TrfYrPvX3bg==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/runtime@7.26.9':
-    resolution: {integrity: sha512-aA63XwOkcl4xxQa3HjPMqOP6LiK0ZDv3mUPYEFXkpHbaFjtGggE1A61FjFzJnB+p7/oy2gA8E+rcBNl/zC1tMg==}
+  '@babel/runtime@7.26.10':
+    resolution: {integrity: sha512-2WJMeRQPHKSPemqk/awGrAiuFfzBmOIPXKizAsVhWH9YJqLZ0H+HS4c8loHGgW6utJ3E/ejXQUsiGaQy2NZ9Fw==}
     engines: {node: '>=6.9.0'}
 
   '@babel/template@7.18.10':
@@ -3146,8 +3146,8 @@ packages:
     peerDependencies:
       '@capacitor/core': ^6.0.0
 
-  '@capacitor/screen-orientation@6.0.2':
-    resolution: {integrity: sha512-CF+RFUIUYrvztlX+voHwvONdAbf/F9xuJWfMDnxjiGliu+oPTNLLTWxAFPmoyi3sVJcNoeQ+qwWzUfXa7ag59Q==}
+  '@capacitor/screen-orientation@6.0.3':
+    resolution: {integrity: sha512-5R+tf+twRNnkZFGSWsQkEBz1MFyP1kzZDyqOA9rtXJlTQYNcFJWouSXEuNa+Ba6i6nEi4X83BuXVzEFJ7zDrgQ==}
     peerDependencies:
       '@capacitor/core': ^6.0.0
 
@@ -4106,8 +4106,8 @@ packages:
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
 
-  '@eslint-community/eslint-utils@4.5.0':
-    resolution: {integrity: sha512-RoV8Xs9eNwiDvhv7M+xcL4PWyRyIXRY/FLp3buU4h1EYfdF7unWUy3dOjPqb3C7rMUewIcqwW850PgS8h1o1yg==}
+  '@eslint-community/eslint-utils@4.5.1':
+    resolution: {integrity: sha512-soEIOALTfTK6EjmKMMoLugwaP0rzkad90iIWd1hMO9ARkSAyjfMfkRRhLvD5qH7vvM0Cg72pieUfR6yh6XxC4w==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
@@ -19144,7 +19144,7 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.0
 
-  '@babel/runtime@7.26.9':
+  '@babel/runtime@7.26.10':
     dependencies:
       regenerator-runtime: 0.14.1
 
@@ -19298,7 +19298,7 @@ snapshots:
     dependencies:
       '@capacitor/core': 6.1.1
 
-  '@capacitor/screen-orientation@6.0.2(@capacitor/core@6.1.1)':
+  '@capacitor/screen-orientation@6.0.3(@capacitor/core@6.1.1)':
     dependencies:
       '@capacitor/core': 6.1.1
 
@@ -20656,7 +20656,7 @@ snapshots:
       eslint: 8.56.0
       eslint-visitor-keys: 3.4.3
 
-  '@eslint-community/eslint-utils@4.5.0(eslint@9.5.0)':
+  '@eslint-community/eslint-utils@4.5.1(eslint@9.5.0)':
     dependencies:
       eslint: 9.5.0
       eslint-visitor-keys: 3.4.3
@@ -26852,7 +26852,7 @@ snapshots:
 
   eslint@9.5.0:
     dependencies:
-      '@eslint-community/eslint-utils': 4.5.0(eslint@9.5.0)
+      '@eslint-community/eslint-utils': 4.5.1(eslint@9.5.0)
       '@eslint-community/regexpp': 4.12.1
       '@eslint/config-array': 0.16.0
       '@eslint/eslintrc': 3.3.0
@@ -33243,7 +33243,7 @@ snapshots:
 
   react-syntax-highlighter@15.6.1(react@18.2.0):
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
       highlight.js: 10.7.3
       highlightjs-vue: 1.0.0
       lowlight: 1.20.0
